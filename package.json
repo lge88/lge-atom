@@ -1,0 +1,36 @@
+{
+  "name": "lge-atom",
+  "main": "./lib/lge-atom",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "lge-atom:noop",
+      "lge-atom:emacs-undo"
+    ],
+    "atom-text-editor": [
+      "lge-atom:auto-indent-and-back-to-indentation",
+      "lge-atom:expand-lines"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/lge-atom.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atomic-emacs": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/lge-atom/issues"
+  },
+  "homepage": "https://github.com/atom/lge-atom#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}
